@@ -3,7 +3,7 @@
     {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/wp-content/themes/ghac/assets/css"
+        "savePath": "/assets/css"
 
         // / -> denotes relative to the workspace root
         // null denotes the same path as the SASS file
@@ -14,7 +14,7 @@
     {
         "format": "compressed",
         "extensionName": ".min.css",
-        "savePath": "/wp-content/themes/ghac/assets/css"
+        "savePath": "/assets/css"
 
         // / -> denotes relative to the workspace root
         // null denotes the same path as the SASS file
@@ -23,6 +23,6 @@
     }
 ],
 "liveSassCompile.settings.includeItems": [
-    "/wp-content/themes/ghac/assets/scss/styles.scss",
+    "/assets/scss/styles.scss",
 ]
 }
