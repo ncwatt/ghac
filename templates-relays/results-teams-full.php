@@ -15,7 +15,6 @@ $filter_pos = 1;
 				<h1><?php the_title(); ?></h1>
                 <div class="alert alert-info">
                     <p>Click one of the buttons below to access alternative results views.</p>
-                    <p>Please note that this page updates as results are entered. Results are provisional until officially confirmed.</p>
                 </div>
                 <p>
                     <a href="<?php echo get_page_permalink_by_pageslug( 'summer-relays/results-relay-teams-condensed' ); ?>" class="btn btn-primary">Teams (Condensed View)</a>&nbsp;&nbsp;
