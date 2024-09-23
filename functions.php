@@ -49,8 +49,8 @@ if ( ! function_exists( 'ghac_setup' ) ) :
     // Add support for custom navigation menus.
     register_nav_menus(
       array (
-        'top-menu' => __('Top Menu', 'ghac'),
-        'top-menu-admin' => __('Top Menu Admin', 'ghac'),
+        'unauth-menu' => __('Unauthenticated Menu', 'ghac'),
+        'auth-menu' => __('Authenticated Menu', 'ghac'),
         'useful-links' => __('Useful Links', 'ghac')
       )
     );
