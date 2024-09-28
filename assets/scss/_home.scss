@@ -7,10 +7,6 @@
 .features {
     text-align: center;
 
-    @media screen and (max-width: 767px) {
-        margin-top: -50px;
-    }
-
     .feature {
         @media screen and (max-width: 767px) {
             margin-top: 40px;
