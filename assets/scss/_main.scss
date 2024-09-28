@@ -76,10 +76,16 @@ h6 {
 
 .content-1 {
     background-color: $color1;
-    padding: 3em 0 3em 0;
 }
 
 .content-4 {
     background-color: $color4;
-    padding: 3em 0 3em 0;
+}
+
+.content-pad-t{
+    padding-top: 3em;
+}
+
+.content-pad-b {
+    padding-bottom: 3em;
 }
